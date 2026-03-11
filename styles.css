@@ -95,6 +95,20 @@ a:hover {
   padding: 20px 24px;
 }
 
+.brand-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--accent-color);
+}
+
 .brand-section h1 {
   margin: 0;
   font-size: 1.5rem;
@@ -215,6 +229,121 @@ a:hover {
   .hero-content p {
     font-size: 1.1rem;
   }
+}
+
+/* ========================================
+   PROJECTS SECTION
+   ======================================== */
+.projects {
+  padding: 60px 0;
+}
+
+/* ========================================
+   EXPERIENCE SECTION
+   ======================================== */
+.experience-section {
+  padding: 60px 24px;
+  background: var(--bg-white);
+  margin: 40px 0;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+}
+
+.experience-section h3 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.experience-item {
+  margin-bottom: 32px;
+}
+
+.experience-item h4 {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.experience-company {
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.experience-item p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+/* ========================================
+   EDUCATION SECTION
+   ======================================== */
+.education-section {
+  padding: 60px 24px;
+  background: var(--bg-light);
+}
+
+.education-section h3 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.education-item {
+  margin-bottom: 32px;
+}
+
+.education-item h4 {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.education-institution {
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.education-item p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+/* ========================================
+   SERVICES SECTION
+   ======================================== */
+.services-section {
+  padding: 60px 24px;
+  background: var(--bg-white);
+}
+
+.services-section h3 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.service-item {
+  background: var(--bg-light);
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+}
+
+.service-item h4 {
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: var(--text-secondary);
 }
 
 /* ========================================
